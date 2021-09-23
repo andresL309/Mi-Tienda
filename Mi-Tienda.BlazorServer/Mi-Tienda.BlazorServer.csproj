@@ -5,4 +5,12 @@
     <RootNamespace>Mi_Tienda.BlazorServer</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Shared\PathNotFound.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Shared\PathNotFound.razor" />
+  </ItemGroup>
+
 </Project>
